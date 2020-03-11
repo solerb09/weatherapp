@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather App</title>
+        <link rel="stylesheet" href="style/style.css">
+        
+
+    </head>
+
+<body>
+    <h1 id="title">Forecast</h1>
+    <input id="city" placeholder="City or Zipcode"><br>
+    <select id="units">
+        <option></option>
+        <option value = "Imperial">Imperial</option>
+        <option value = "Metric">Metric</option>
+    </select>
+
+        <br>
+        <br>
+
+    <input type="submit" id="submit" onclick="requestData();"></button>
+    
+        <br>
+        <br>
+
+        <div id="wrapper">
+            <p id="location"></p>
+            <p id="outside"></p>
+            <p id="temp"></p>
+            <p id="feelsLike"></p>
+            <p id="wind"></p>
+        </div>
+
+    
+</body>
+<script type="text/javascript" src="script/app.js"></script>
+</html>

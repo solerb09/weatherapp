@@ -1,0 +1,45 @@
+#wrapper
+{
+    border: 1px solid black;
+    width: 500px;
+    padding: 15px;
+};
+
+#location
+{
+    position: relative;
+    left: 2em;
+    bottom: 2em;
+};
+
+#feelsLike
+{
+    position: relative;
+    bottom: 4.8em;
+    right: 0.8em;
+};
+#temp
+{
+    position: relative;
+    bottom: 5em;
+    right: 0.5em;
+    font-size: 20px;
+};
+
+#title
+{
+    text-align: center;
+};
+
+#outside
+{
+    position: relative;
+    top: -20px;
+    right: 12px;
+}
+#wind
+{
+    position: relative;
+    left: 80%;
+    bottom: 8.9em;
+}
